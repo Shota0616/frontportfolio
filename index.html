@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
+    <!-- swiper -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <!-- animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- drawer.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+    <!-- lightbox -->
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <!-- googlefont -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body id="nav" class="drawer drawer--top">
+
+    <!-- ロード画面 -->
+    <div class="loader-bg">
+      <div class="loader">
+        <div class="container">
+          <div>L</div>
+          <div>O</div>
+          <div>A</div>
+          <div>D</div>
+          <div>I</div>
+          <div>N</div>
+          <div>G</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <!-- header -->
+      <header class="header">
+        <div class="header-inner">
+          <nav class="header-nav">
+            <ul class="nav-menu">
+              <li><span class="nav-item"><a href="#nav1">Home</a></span></li>
+              <li><span class="nav-item"><a href="#nav2">About</a></span></li>
+              <li><span class="nav-item"><a href="#nav3">Service</a></span></li>
+              <li><span class="nav-item"><a href="#nav4">Works</a></span></li>
+              <li><span class="nav-item"><a href="#nav5">Contact</a></span></li>
+            </ul>
+          </nav>
+          <!-- ハンバーガーボタン -->
+          <button type="button" class="drawer-toggle drawer-hamburger">
+            <span class="sr-only">toggle navigation</span>
+            <span class="drawer-hamburger-icon"></span>
+          </button>
+          <!-- ナビゲーションの中身 -->
+          <nav class="drawer-nav" role="navigation">
+            <ul class="drawer-menu">
+              <li><a class="drawer-menu-item" href="#nav1">Home</a></li>
+              <li><a class="drawer-menu-item" href="#nav2">About</a></li>
+              <li><a class="drawer-menu-item" href="#nav3">Service</a></li>
+              <li><a class="drawer-menu-item" href="#nav4">Works</a></li>
+              <li><a class="drawer-menu-item" href="#nav5">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!-- top -->
+      <div class="top content-box" id="nav1">
+        <div class="top-inner">
+          <div class="catchcopy">
+            <h1 class="typing"></h1>
+            <p>Web制作承ります。</p>
+          </div>
+          <div class="scroll-btn">
+            <a href="#nav2"><span></span></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- aboud -->
+      <div class="about content-box" id="nav2">
+        <div class="about-inner">
+          <h2 class="wow fadeInUp" data-wow-delay=".6s">About</h2>
+          <div class="about-content">
+          <div class="about-img wow fadeInUp" data-wow-delay=".6s">
+            <img src="images/IMG_0558-min.WebP" alt="プロフィール画像">
+          </div>
+          <!-- Slider main container -->
+          <div class="swiper-container">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <h3>Profile</h3>
+                  <p>はじめまして、「磯田将太」です。<br>群馬県出身、大学生。<br>Web制作を通して
+                    様々な方と関わっていけたら嬉しいです。<br>好きなものは筋トレと車と腕時計です。</p>
+                </div>
+                <div class="swiper-slide">
+                  <h3>History</h3>
+                  <p><span>1999</span>群馬県出身</p>
+                  <p><span>2018</span>東京電機大学入学</p>
+                  <p><span>2020</span>web制作開始</p>
+                </div>
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- service -->
+      <div class="service content-box" id="nav3">
+        <div class="service-inner">
+          <h2 class="wow fadeInUp" data-wow-delay=".6s">Service</h2>
+          <div class="boxs wow fadeInUp" data-wow-delay=".6s">
+            <div class="box">
+              <i class="fas fa-code"></i>
+              <h3>コーディング</h3>
+              <p>お預かりした「XD」などのデザインカンプをもとにコーディングいたします。保守管理しやすい綺麗なコードでお作りいたします。</p>
+            </div>
+            <div class="box">
+              <i class="fas fa-mobile-alt"></i>
+              <h3>レスポンシブ対応</h3>
+              <p>近年ではスマートフォンの普及が急速に進んでおり、Webサイトのレスポンシブ化は必須です。レスポンシブ化も承っております。</p>
+            </div>
+            <div class="box">
+              <i class="fas fa-tools"></i>
+              <h3>Webサイト修正</h3>
+              <p>Webサイトの細かい修正なども承ります。</p>
+            </div>
+          </div>
+        </div>
+        <!-- contact-btn -->
+        <div class="contact-btn  wow fadeInUp" data-wow-delay=".6s">
+          <a href="#nav5">お問い合わせはこちら</a>
+        </div>
+      </div>
+
+      <!-- works -->
+      <div class="works content-box" id="nav4">
+        <div class="works-inner">
+          <h2 class="wow fadeInUp" data-wow-delay=".6s">Works</h2>
+          <div class="row">
+            <a href="images/englishschoollong.WebP" data-lightbox="1" class="l-card wow fadeInUp" data-wow-delay=".6s">
+              <div class="l-thumbnail">
+                <div class="box">
+                  <img src="images/englishschool.WebP" alt="模写">
+                </div>
+                <span class="more-text">
+                  英会話リンゲージLP<br>模写サイト
+                </span>
+              </div>
+            </a>
+            <a href="images/isaralong.WebP" data-lightbox="2" class="l-card wow fadeInUp" data-wow-delay=".8s">
+              <div class="l-thumbnail">
+                <div class="box">
+                  <img src="images/isara.WebP" alt="模写">
+                </div>
+                <span class="more-text">
+                  isara<br>模写サイト
+                </span>
+              </div>
+            </a>
+            <a href="images/30days2ndlong.WebP" data-lightbox="3" class="l-card wow fadeInUp" data-wow-delay="1s">
+              <div class="l-thumbnail">
+                <div class="box">
+                  <img src="images/30days2nd.WebP" alt="模写">
+                </div>
+                <span class="more-text">
+                  デイトラ<br>模写サイト
+                </span>
+              </div>
+            </a>
+          </div>
+          <div class="row">
+            <a href="images/30dayslong.WebP" data-lightbox="4" class="l-card wow fadeInUp" data-wow-delay=".6s">
+              <div class="l-thumbnail">
+                <div class="box">
+                  <img src="images/30days.WebP" alt="模写">
+                </div>
+                <span class="more-text">
+                  デイトラ<br>模写サイト
+                </span>
+              </div>
+            </a>
+            <a href="images/nortonlong.WebP" data-lightbox="5" class="l-card wow fadeInUp" data-wow-delay=".8s">
+              <div class="l-thumbnail">
+                <div class="box">
+                  <img src="images/norton.WebP" alt="模写">
+                </div>
+                <span class="more-text">
+                  ノートンセキュリティ<br>模写サイト
+                </span>
+              </div>
+            </a>
+            <div class="url">
+              <p>模写させていただいた元サイト様のURLです。</p>
+              <ul>
+                <li><a href="https://www.linguage-school.jp/lp/">英会話スクールリンゲージ</a></li>
+                <li><a href="https://isara.life/">isara</a></li>
+                <li><a href="https://tokyofreelance.jp/category/daily-trial/">デイトラ</a></li>
+                <li><a href="https://www.nortonstore.jp/">ノートンセキュリティ</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- contact -->
+      <div class="contact content-box" id="nav5">
+        <div class="contact-inner">
+          <h2 class="wow fadeInUp" data-wow-delay=".6s">Contact</h2>
+          <p>各項目ご記入の上、お気軽にお問い合わせください。<br><a href="https://twitter.com/shotaisoda">Twitter</a>からも受け付けております。</p>
+          <form action="mail.php" method="post">
+            <div>
+              <label for="氏名">氏名</label>
+              <input type="text" name="氏名" id="氏名" placeholder="氏名">
+            </div>
+            <div>
+              <label for="フリガナ">フリガナ</label>
+              <input type="text" name="フリガナ" id="フリガナ" placeholder="フリガナ">
+            </div>
+            <div>
+              <label for="メールアドレス">メールアドレス</label>
+              <input type="mail" name="メールアドレス" id="メールアドレス" placeholder="text@example.com">
+            </div>
+            <div class="content">
+              <label for="お問い合わせ内容">メッセージ</label>
+              <textarea name="お問い合わせ内容" rows="10" cols="80" id="お問い合わせ内容"></textarea>
+            </div>
+            <div class="submit">
+              <input type="submit" value="送信する">
+            </div>
+          </form>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="footer-inner">
+          <ul>
+            <li><a href="https://twitter.com/shotaisoda"><i class="fab fa-twitter"></i></a></li>
+          </ul>
+          <p class="copyright">©2020 ShotaIsoda</p>
+        </div>
+      </footer>
+    </div>
+
+
+    <!-- pagetop -->
+    <div class="page_top"><a href="#nav1"></a></div>
+
+
+    <!-- swiper -->
+    <script src="js/swiper.min.js"></script>
+    <!-- wow.js -->
+    <script src="js/wow.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- iScroll -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+    <!-- drawer.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+
+
+    <!-- Optional JavaScript -->
+    <script type="text/javascript">
+    $(function(){
+
+      // swiper
+      var mySwiper = new Swiper ('.swiper-container', {
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+        },
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+          clickable: true,
+        },
+      })
+
+      // ローディング画面
+      var h = $(window).height(); // ブラウザウィンドウの高さを取得する
+        $('.wrapper').css('display','none'); // コンテンツを非表示にする
+        $('loader-bg ,.loader').height(h).css('display','block');//ローディング画像を表示
+
+      $(window).on('load', function () { // 読み込み完了したら実行する
+        $('.loader-bg').delay(900).fadeOut(800);// ローディングを隠す
+        $('.loader').delay(600).fadeOut(300);
+        $('.wrapper').css('display', 'block');// コンテンツを表示する
+      });
+
+      // スムーススクロール
+      // #で始まるアンカーをクリックした場合に処理
+      $('a[href^="#"]').click(function(){
+        var adjust = 0;
+        // スクロールの速度
+        var speed = 400; // ミリ秒
+        // アンカーの値取得
+        var href= $(this).attr("href");
+        // 移動先を取得
+        var target = $(href == "#" || href == "" ? 'html' : href);
+        // 移動先を調整
+        var position = target.offset().top - adjust;
+        // スムーススクロール
+        $('body,html').animate({scrollTop:position}, 1000, '');
+      });
+
+      //ナビとエリアとその数を取得
+      var naviItem = $('span.nav-item');
+      var boxItem = $('div.content-box');
+      var naviNum = naviItem.length;
+      var boxNum = boxItem.length;
+      //いくつ増えてもいいように配列を用意
+      var naviItemElm = new Array();
+      var boxItemElm = new Array();
+      var itemKey = new Array();
+      var boxKey = new Array();
+      var distance = new Array();
+      var height = new Array();
+      var endPoint = new Array();
+
+      //スクロールするたびに以下が起動
+      $(window).on('load scroll', function() {
+      　　//スクロール量を取得
+          $scrollTopDistance = $(window).scrollTop();
+      　　//ナビの数だけ以下を繰り返す
+          for(var a = 0; a < naviNum; a++){
+              naviItemElm[a] = naviItem.eq(a);
+              boxItemElm[a] = boxItem.eq(a);
+      　　　　//hrefから#の文字を除く
+              itemKey[a] = naviItemElm[a].find('a').attr('href').replace(/#/g,"");
+              boxKey[a] = boxItemElm[a].attr('id');
+      　　　　//-20で反応する位置を調整
+              distance[a] = boxItemElm[a].offset().top - 20;
+              height[a] = boxItemElm[a].outerHeight();
+              endPoint[a] = distance[a] + height[a];
+             //もし、hrefとidが同じで、現在スクロールがボックスの開始地点より大きく、終了地点より小さい場合、class="active"を付与する。
+              if(itemKey[a] == boxKey[a] && $scrollTopDistance > distance[a] && $scrollTopDistance < endPoint[a]){
+                  naviItem.eq(a).addClass('active');
+              }else if($scrollTopDistance < distance[a] || $scrollTopDistance > endPoint[a]){
+                  naviItem.eq(a).removeClass('active');
+              }
+          }
+      });
+
+      // タイピングアニメーション
+      const typing = (element, sentence) => {
+        [...sentence].forEach((character, index) => {
+          setTimeout(() => {
+            document.querySelector(element).textContent += character;
+          }, 120 * ++index);
+        });
+      }
+      typing('.typing', " I'm Shota Isoda.");
+
+      // ページトップ
+      var pagetop = $('.page_top');
+      // ボタン非表示
+      pagetop.hide();
+      // 100px スクロールしたらボタン表示
+      $(window).scroll(function () {
+         if ($(this).scrollTop() > 100) {
+              pagetop.fadeIn();
+         } else {
+              pagetop.fadeOut();
+         }
+      });
+      pagetop.click(function () {
+         $('body, html').animate({ scrollTop: 0 }, 1000,'swing');
+      });
+
+      // wow.js
+      new WOW().init();
+
+      // drawer.js
+      $('.drawer').drawer();
+
+    });
+    </script>
+
+    <!-- lightbox -->
+    <script src="js/lightbox.min.js"></script>
+    </body>
+</html>
